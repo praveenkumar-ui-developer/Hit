@@ -1,0 +1,12 @@
+.navbar{
+    position: sticky;
+    top:0;
+    z-index: 1;
+    background-color: white;
+    border-bottom: 1px splid gray;
+}
+
+.dropdown:hover .dropdown-menu { 
+    display: block; 
+    width: 300px;
+} 

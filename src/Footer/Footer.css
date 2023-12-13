@@ -1,0 +1,36 @@
+.footer{
+    display: table;
+    clear: both;
+    width: 100%;
+    height: 40vh;
+    background-color: green;
+    /* margin-top: 10px; */
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+#fdiv{
+    
+    padding: 10px;
+    color: white;
+    margin-left: 20%;
+    text-align: left;
+}
+#fdiv1{
+    float: left;
+    
+    width: 20%;
+    padding: 10px;
+    margin-right: 10px;
+    text-align: left;
+}
+.copy {
+    text-align: end;
+    margin: auto;
+    width: 100%;
+    color: white;
+    margin-top: 30px;
+    background-color: darkgreen;
+    height: 13vh;
+}

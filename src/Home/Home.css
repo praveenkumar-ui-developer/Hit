@@ -1,0 +1,254 @@
+.slide{
+    margin: auto;
+    width: 100%;
+    /* height:100%; */
+}
+.about{
+    display: table;
+    clear: both;
+    width: 95%;
+    margin: auto;
+    
+    padding: 30px;
+    
+}
+.text{
+    float: left;
+    width: 60%;
+    text-align: justify;
+    padding: 10px;
+    margin-left: 10px;
+    line-height: 2;
+}
+form h2{
+    margin-top: 0;
+}
+form{
+    float: right;
+    width: 30%;
+    background-color: white;
+    border-radius: 8px;
+     text-align: center;
+    margin-left: 10px;
+    box-shadow: 2px 1px 10px 6px rgba(199, 197, 198, 0.6);
+}
+form input,textarea {
+    
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 55px;
+}
+form input[type='submit']{
+    width: 80%;
+    background-color: #ffc600;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form h2 {
+    background-color: #285803;
+    color: white;
+    height: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    border-radius:  10px 10px 0px 0px;
+}
+textarea{
+    height: 100px;
+}
+.course{
+    width: 100%;
+    margin:auto ;
+    display: table;
+    clear: both;
+    background-color: gray;
+    
+}
+.course h1 span{
+    color: red;
+}
+.course figure{
+    float: left;
+    width: 23%;
+    margin: auto;
+    cursor: pointer;
+    /* padding: 10px; */
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    transition-property: all;
+    /* overflow: hidden; */
+   /* background-color: #285803;  */
+    
+    border-radius: 5px;
+    overflow:hidden;
+    background-color: white;
+
+}
+.course figure img{
+    width: 100%;
+    transition-property: all;
+    transition: 1s;
+    overflow: hidden;
+}
+.course figure img:hover{
+    transform: scale(1.2);
+}
+.cover{
+    /* width: 20%; */
+    /* background-color: #ffc600; */
+    /* float: left; */
+    overflow:hidden;
+}
+.course figure figcaption{
+    height: 50px;
+    
+}
+.pad{
+    padding: 20px;
+}
+
+.tble{
+    height: 700px;
+}
+.tble h1{
+    text-align: center;
+    height: 85px;
+    padding: 25px;
+}
+
+.styled-table {
+    /* border-collapse: collapse; */
+    border-color: black;
+    
+    margin: auto;
+    font-size: 0.9em;
+    font-family: sans-serif; 
+    max-width: 900px;
+    border: #1f2323;
+    /* box-shadow: 10 12px rgba(210, 76, 76, 0.15); */
+   
+}
+
+.styled-table thead tr {
+background-color: #1f2323; 
+color: #ffffff;
+text-align: center;
+
+}
+
+.styled-table th,
+.styled-table td {
+padding: 17px 19px;
+
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid;
+    border:1px solid;
+    
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+    border-left: #1f2323;
+}
+#reg{
+    background-color: transparent;
+    color: red;
+    border: none;
+    cursor: pointer;
+}
+.choose{
+    display: table;
+    clear: both;
+    width: 100%;
+    /* margin-top: 100vh; */
+    background-color: gray;
+    /* text-align: center; */
+    cursor: pointer;
+    margin: auto;
+    align-content: center;
+  
+}
+.choosed figure{
+    float: left;
+    margin: auto;
+    width: 22%;
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 13px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.choosed{
+    margin-left: 4%;
+}
+/* .choosed figure{
+     height: 40vh; 
+}  */
+.choosed img{
+    width: 50%;
+    
+}
+.ychoose{
+    display: table;
+    clear: both;
+    width: 100%;
+}
+.achoose div{
+    float: left;
+    width: 45%;
+    padding: 20px;
+    text-align: justify;
+    margin-left: 50px;
+}
+.achoose div h3{
+    color: red;
+}
+.training{
+    width: 100%;
+    display: table;
+    clear: both;
+    background-color: #fbf8f8;
+    padding: 10px;
+    /* margin-left: 20px; */
+}
+.tra figure{
+    float: left;
+    width: 23%;
+    background-color: rgb(249, 247, 247);
+    margin-left: 20px;
+}
+.tra img{
+    width: 60%;
+}
+.placed{
+    width: 100%;
+    display: table;
+    clear: both;
+
+}
+ h1,h2,h3{
+    font-weight:450;
+    
+}
+.company{
+    float: 'left';
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.company span{
+    padding: 15px 60px 10px ;
+    /* padding-left: 50px; */
+    background-color: #ffc600;
+    margin-left: 50px;
+    
+}

@@ -1,0 +1,22 @@
+.nav{
+    display: table;
+    clear: both;
+    width: 100%;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlT4OURaV6JwxgxhGDwDnWUM4gDEeo7hAYMg&usqp=CAU');
+    background-position-y: 100px;
+    height: 13vh;
+
+}
+.nav h1{
+    float: left;
+    color: blue;
+    font-weight: 600;
+    /* font-size: larger; */
+    margin-left: 60px;
+    cursor: pointer;
+}
+.nav Link{
+    float: left;
+    color:blanchedalmond
+    /* margin-right: 30px; */
+}
